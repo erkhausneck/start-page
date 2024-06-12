@@ -39,7 +39,7 @@ h1 {
 }
 
 #menu {
-    margin-top: 0;
+    margin-top: 2px;
     list-style: none;
     text-align: right;
 }
@@ -53,7 +53,7 @@ h1 {
 
 }
 li {
-    margin-bottom: -20px;
+    margin-bottom: 0;
 }
 
 a:link, a:active, a:hover, a:visited {
@@ -64,4 +64,9 @@ a:link, a:active, a:hover, a:visited {
 
 a:hover {
     color: #444444;
+}
+
+a {
+    display: inline-block;
+    line-height: 1em;
 }
